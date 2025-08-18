@@ -1,0 +1,22 @@
+
+
+.text-dark{
+    color:crimson
+}
+
+h2 {
+    color:blueviolet
+}
+
+.text-bold{
+    font-weight: bold
+}
+
+.text-italic{
+    font-style: italic
+}
+
+#second-h2 {
+    color: darkslategray;
+    background-color: aquamarine;
+}
