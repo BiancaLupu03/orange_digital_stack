@@ -1,0 +1,21 @@
+
+
+div p {
+    color:blueviolet
+}
+/*copil/descendent (inclusiv nepot) de orice fel, la orice nivel daca e in orice div,ADICA toate paragrafele care sunt intr-un div oriunde*/
+
+div > p {
+    color: red;
+}
+/*copil direct, doar daca e in div, toate paragrafele care sunt copil direct*/
+
+div + p {
+    color: green;
+}
+/*frate direct, sibling, cel care e imediat in dreapta unui div (sau sub, cum vine in cod) */
+
+div ~ p {
+    color: orange;
+}
+/*frate, sibling, toate cele care sunt in dreapta, nu doar cel imediat*/
