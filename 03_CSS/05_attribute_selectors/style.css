@@ -1,0 +1,18 @@
+[href] {
+    color:aqua
+}
+
+
+
+[href^="https"] {
+    color: green;
+}
+
+[href$=".pdf"] {
+    color: red;
+}
+
+[href*="google"] {
+    color: blue;
+}
+
