@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    'one one two two two two two two'
+    'one one three three three four four four'
+    'five five six six six six seven seven'
+    'eight eight six six six six seven seven';
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+    gap: 5px;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr; /*arata cum sa aranjam coloanele ca si fractionari*/
+    grid-template-rows: 0.5fr 1fr 2fr 1fr;;
+}
+
+@media (max-width: 500px) {
+    .container {
+         grid-template-areas: 
+          'one'
+          'two'
+          'three'
+          'four'  
+          'five'
+          'six'
+          'seven'   
+          'eight';
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 200px);
+    }
+   
+}
+
+#one {
+    grid-area: one;
+    background-color: lightblue;
+}
+
+#two {
+    grid-area: two;
+    background-color: lightsalmon;
+}
+
+#three {
+    grid-area: three;
+    background-color: lightgreen;
+}
+
+#four {
+    grid-area: four;
+    background-color: lightpink;
+}
+
+#five {
+    grid-area: five;
+    background-color: lightcoral;
+}
+
+#six {
+    grid-area: six;
+    background-color: limegreen;
+}
+
+#seven {
+    grid-area: seven;
+    background-color: lightgoldenrodyellow;
+}
+
+#eight {
+    grid-area: eight;
+    background-color: mediumblue;
+}
