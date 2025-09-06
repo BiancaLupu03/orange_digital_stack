@@ -40,3 +40,10 @@ function  calculeazaSuma () {
     document.getElementById('output').innerHTML = 'suma dintre' + primulNumar + ' si ' + alDoileaNumar + ' este ' + suma;
     //console.log (primulNumar + alDoileaNumar); 
 }
+
+//arrays
+
+// var number = [2, 7, 8, 9]; // number[0] = 2, number[1] = 7, etc.
+
+var numbers = [6, 2, 7, 8, 9];
+console.log(numbers[0]); //6
