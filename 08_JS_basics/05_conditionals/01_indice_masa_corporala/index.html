@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcul IMC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="inaltime">
+        <label for="inaltime">Inaltime</label>
+        <input type="number" id="inaltime" />
+      </div>
+      <div class="greutate">
+        <label for="greutate">Greutate</label>
+        <input type="number" id="greutate" />
+      </div>
+      <div>
+        <button onclick="calculeazaIMC()">Calculeaza IMC</button>
+      </div>
+      <p id="output">Rezultatul va aparea aici</p>
+    </div>
     
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
