@@ -6,7 +6,7 @@ function calculeazaIMC() {
     
     var inaltime = Number(inputInaltime.value);
     var greutate = Number(inputGreutate.value);
-    var IMC = greutate / (inaltime * inaltime);
+    var IMC = greutate / (inaltime**2);
 
 
 
